@@ -162,7 +162,7 @@ if(lifes ==0){
 if(gameState == over && keyWentDown("space")){
    gameState =play;
    score =0;
-   lifes =2;
+   lifes =5;
    gameOver.visible =false;
    Restart.visible =false;
   }
